@@ -1,5 +1,5 @@
 # Qf-store
-Heavily heavily expired by NERDTree.
+Heavily heavily inspired by NERDTree.
 
 ## Feature
 
@@ -15,5 +15,6 @@ Heavily heavily expired by NERDTree.
   - add current qf lists to qf-store
   - add item
 
-- tBD
-  - Folder function
+- TBD
+  - Group function
+    - write the content out to the file, and load them

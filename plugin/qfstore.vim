@@ -6,8 +6,8 @@ let g:loaded_qfstore = 1
 let s:old_cpo = &cpo
 set cpo&vim
 
-let g:QFStore_windowPosition = 'right'
-let g:QFStore_windowSize = 50
+let g:QFStoreWindowPosition = 'right'
+let g:QFStoreWindowSize = 50
 
 call qfstore#loadClassFiles()
 

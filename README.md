@@ -1,5 +1,5 @@
 # Qf-store
-Heavily heavily inspired by NERDTree.
+Heavily heavily inspired by NERDTree.  
 I mean I admit totally copy-and-pasted some codes. No offence, forgive me!
 
 ## Feature

@@ -36,6 +36,7 @@ function! s:QFStore.Close()
 endfunction
 
 function! s:QFStore.render()
+    echom 'imma render'
     call self.ui.render()
 endfunction
 

@@ -44,6 +44,8 @@ function! s:Creator.createTabStore()
 
     call self._createStoreWindow()
     call self._createQFStore()
+
+    call b:QFStore.ui.render()
 endfunction
 
 function! s:Creator._createStoreWindow()
@@ -66,7 +68,6 @@ endfunction
 
 function! s:Creator._createQFStore()
     let b:QFStore = g:QFStore.New()
-    echom exists('b:QFStore')
 endfunction
 
 function! s:Creator._nextBufferName()
